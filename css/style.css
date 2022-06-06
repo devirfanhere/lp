@@ -1,0 +1,236 @@
+body{
+    font-family: 'Roboto';
+}
+nav{
+    display: flex;
+    margin: 15px;
+    border-bottom: 2px solid;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    width: 20%;
+}
+.menu{
+    margin-left: 300px;
+    width: 80%;
+}
+div.menu ul{
+    margin-top: 25.5px;
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    list-style-type: none;
+}
+li:hover a{
+    padding: 10px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.login:hover a{
+    background-color: #2250f4;
+}
+.signup:hover a{
+    background-color: #2da44e;
+}
+.hero{
+    margin-bottom: 15px;
+    width: 100%;
+}
+.services{
+    background-color: #d3d3d3;
+}
+.serchild{
+    display: flex;
+    margin: 0px 150px;
+    padding: 50px 0px;
+}
+div.serchild ul{
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.webdev, .webdesign, .seo, .smm, .amazon, .hosting{
+    border-radius: 10px;
+    text-align: center;
+}
+.webdev{
+    width: 300px;
+    background-color: white;
+}
+.photos{
+    margin-top: 30px;
+    width: 50px;
+    height: 50px;
+}
+h1{
+    font-size: 17px;
+    padding-top: 5px;
+}
+hr{
+    background-color: #25AAE1;
+    height: 1px;
+    width: 30%;
+}
+hr:hover{
+    background-color: #ffd23f;
+    height: 1px;
+    width: 40%;
+}
+.webdev p{
+    padding: 0px 25px;
+    text-align: justify;
+}
+.webdesign{
+    width: 300px;
+    background-color: white;
+}
+.webdesign p{
+    padding: 0px 25px;
+    text-align: justify;
+}
+.seo{
+    width: 300px;
+    background-color: white;
+}
+.seo p{
+    padding: 0px 25px;
+    text-align: justify;
+}
+.smm{
+    width: 300px;
+    margin-top: 50px;
+    background-color: white;
+}
+.smm p{
+    padding: 0px 25px;
+    text-align: justify;
+}
+.amazon{
+    width: 300px;
+    background-color: white;
+    margin-top: 50px;
+}
+.amazon p{
+    padding: 0px 25px;
+    text-align: justify;
+}
+.hosting{
+    width: 300px;
+    background-color: white;
+    margin-top: 50px;
+}
+.hosting p{
+    padding: 0px 25px;
+    text-align: justify;
+}
+.joinus{
+    display: flex;
+    background-image: url('../assets/image2.jpg');
+    background-size: cover;
+}
+.comingsoon{
+    width: 100%;
+    margin: 0px 150px;
+    padding: 50px 0px;
+    text-align: center;
+}
+div.comingsoon h1{
+    font-size: 46px;
+}
+.comingsoon button{
+    width: 400px;
+    height: 50px;
+    font-size: large;
+    background-color: transparent;
+    border: 1px solid #2da44e;
+}
+.comingsoon button:hover{
+    color: white;
+    background-color: #2424ff;
+    border: 0px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 100px;
+}
+footer ul{
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer a{
+    color: white;
+}
+
+/* SIGN UP PAGE CSS  */
+.registration{
+    margin: 50px 25%;
+}
+form{
+    font-weight: bold;
+    border: 2px solid #2250f494;
+    padding: 0px 30px;
+    box-shadow: -1px -1px 20px 10px rgb(231 230 230);
+}
+form > input{
+    width: 100%;
+    outline: none;
+    height: 25px;
+    border: 2px solid rgb(196, 196, 196);
+    font-family: 'Roboto';
+
+    margin-top: 5px;
+}
+form > input:hover{
+    padding: 5px;
+    font-size: large;
+    border: 2px solid rgb(88, 91, 255);
+    border-radius: 30px;
+}
+form > input:active{
+    border: 2px solid rgb(88, 91, 255);
+}
+input[type="checkbox" i], [type="radio" i] {
+    width: 5%;
+    margin-top: 10px;
+}
+input[type="button"], [type="submit"]{
+    width: 30%;
+    height: 50px;
+    margin: 30px 50px;
+    color: white;
+    border: none;
+    font-size: large;
+}
+input[type="button"]:hover, [type="submit"]:hover{
+    border: none;
+}
+input[type="button"]{
+    background-color: red;
+}
+input[type="submit"]{
+    background-color: #2da44e;
+}
+.textcenter{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.comingup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 61vh;
+    margin: 30px 30%;
+}
